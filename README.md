@@ -8,6 +8,11 @@ gcc udpClient.c -o udpClient
 
 gcc udpServer.c -o udpServer
 
+ARM static compile
+==================
+
+arm-none-linux-gnueabi-gcc -static udpServer.c -o udpServer-arm
+
 Server side:
 ============
 
