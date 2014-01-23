@@ -11,6 +11,9 @@
 #include <unistd.h> /* close() */
 #include <string.h> /* memset() */
 
+//for Mac OS X
+#include <stdlib.h>
+
 #define LOCAL_SERVER_PORT 1500
 #define MAX_MSG 100
 
