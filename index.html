@@ -34,38 +34,33 @@
         <h3>
 <span class="octicon octicon-link"></span>UDP Broadcast example</h3>
 
-<pre><code>
-  $git clone https://github.com/stanwu/udp-broadcast.git
+<pre><code>$git clone https://github.com/stanwu/udp-broadcast.git
 </code></pre>
 
 <p>
 This examle is based on pont.net change to support UDP broadcast client/server
 </p>
 
-<pre><code>
-  $gcc udpClient.c -o udpClient
+<pre><code>$gcc udpClient.c -o udpClient
   $gcc udpServer.c -o udpServer
 </code></pre>
 
 <h3>
 <span class="octicon octicon-link"></span>ARM static compile</h3>
 
-<pre><code>
-  $arm-none-linux-gnueabi-gcc -static udpServer.c -o udpServer-arm
+<pre><code>$arm-none-linux-gnueabi-gcc -static udpServer.c -o udpServer-arm
 </code></pre>
 
 <h3>
 <span class="octicon octicon-link"></span></a>Server side</h3>
 
-<pre><code>
-  $./udpServer
+<pre><code>$./udpServer
 </code></pre>
 
 <h3>
 <span class="octicon octicon-link"></span>Client side</h3>
 
-<pre><code>
-  $./udpClient 255.255.255.255 TEST
+<pre><code>$./udpClient 255.255.255.255 TEST
 </code></pre>
 
 <p>
